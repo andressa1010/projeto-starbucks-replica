@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Espaço entre as imagens e o menu */
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+}
+
+.navbar-logo {
+  width: 50px; 
+  height: auto;
+}
+
+.navbar-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Espaçamento entre os itens do menu */
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar-menu a:hover{
+  color:darkgreen;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.titulo{
+  font-size: 30px;
+  font-weight: 700;
+  color: darkgreen;
+}
+
+.sub-titulo{
+  font-size: 20px;
+}
+
+
+.logo-star{
+  width: 1400px;
+}
+
+
+
+
+
+#produtos-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.produto{
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.produto img{
+  max-width: 100%;
+  height: auto;
+}
+
+.avaliacoes{
+  width: 100px;
+}
+
+p{
+  font-size: 20px;
+}
+
+.cappucino-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.star-content img:hover{
+  transform: scale(1.1);
+}
+
+.title{
+  color:darkgreen;
+
+}
+
+.container-desainer{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.img-bebida{
+  width: 400px;
+}
+
+.img-sheik{
+  width:500px;
+  height: 100%;
+}
+
+.container-banner{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.content-banner{
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.content-banner img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 40px;
+}
+
+.content-banner:hover{
+  transform: scale(1.1)
+}
+
+
+.container-milk{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.content-milk:hover{
+ transform: scale(1.1);
+}
+
+.img-mil{
+  width: 200px;
+}
+
+.title-milk{
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #006341; /* Cor característica do Starbucks */
+  text-align: center;
+}
+
+
+
+
+.container-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.nutrition-info,
+.ingredients {
+  flex: 1;
+  max-width: 30%;
+  padding: 10px;
+}
+
+.product-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animated-image {
+  max-width: 100%;
+  animation: pulse 2s infinite; 
+}
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-menu ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #produtos-container {
+    justify-content: center;
+  }
+
+  .produto {
+    width: 100%;
+  }
+
+  .container-banner,
+  .container-milk,
+  .container-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-banner,
+  .nutrition-info,
+  .ingredients {
+    max-width: 90%;
+  }
+  .logo-cafe{
+    width: 490px;
+  }
+  .logo-star{
+    width: 480px;
+  }
+  .img-capa{
+    width:400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-menu a {
+    font-size: 16px;
+  }
+
+  .titulo {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .content-banner {
+    width: 100%;
+  }
+
+  .img-mil {
+    width: 100%;
+  }
+}
