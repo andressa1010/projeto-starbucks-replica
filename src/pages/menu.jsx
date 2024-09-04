@@ -8,7 +8,6 @@ const produtosDaLoja = [
     name: "Bebidas",
     image: "/bebidas 2.png.webp",
     avaliacao: "/estrelinhas-avaliacao.png",
-    price: "",
     description:
       "Descubra qual é o “perfect pairing” da sua bebida favorita. Não perca a variedade de produtos que preparamos para você",
   },
@@ -17,7 +16,6 @@ const produtosDaLoja = [
     name: "Bebidas Expresso",
     image: "/Espresso.jpeg.webp",
     avaliacao: "/estrelinhas-avaliacao.png",
-    price: "",
     description:
       "Bebidas com os melhores grãos de café 100% arábica, cuidadosamente selecionados e torrados.",
   },
@@ -26,7 +24,6 @@ const produtosDaLoja = [
     name: "Bebidas Chá",
     image: "/Teas.jpg.webp",
     avaliacao: "/estrelinhas-avaliacao.png",
-    price: "",
     description:
       "Bebidas com os melhores grãos de café 100% arábica, cuidadosamente selecionados e torrados.",
   },
@@ -35,7 +32,6 @@ const produtosDaLoja = [
     name: "Chocolate",
     image: "/SBX-UK-MOP-HotChocolate.jpg.webp",
     avaliacao: "/estrelinhas-avaliacao.png",
-    price: "",
     description:
       "Descubra os nossos chocolates e as suas melhores combinações, quentes ou frios.",
   },
@@ -44,7 +40,6 @@ const produtosDaLoja = [
     name: "Frappuccino com base de café",
     image: "/frappuccino café.png.webp",
     avaliacao: "/estrelinhas-avaliacao.png",
-    price: "",
     description:
       "Bebida refrescante com gelo triturado, café, leite ou bebida vegetal e natas. Pode escolher o seu sabor favorito.",
   },
@@ -53,7 +48,6 @@ const produtosDaLoja = [
     name: "Frappuccino com base de creme de leite",
     image: "/SBX-UK-MOP-Cookies&CreamFrappuccino.jpg.webp",
     avaliacao: "/estrelinhas-avaliacao.png",
-    price: "",
     description:
       "Bebida refrescante com gelo triturado, leite ou bebida vegetal e natas. Pode escolher o seu sabor favorito.",
   },
@@ -62,7 +56,6 @@ const produtosDaLoja = [
     name: "Frappuccino com base de creme de leite",
     image: "/refresha_0.png.webp",
     avaliacao: "/estrelinhas-avaliacao.png",
-    price: "",
     description:
       "Bebida refrescante com gelo triturado, leite ou bebida vegetal e natas. Pode escolher o seu sabor favorito.",
   },
@@ -71,7 +64,6 @@ const produtosDaLoja = [
     name: "Frappuccino com base de creme de leite",
     image: "/refresha.png.webp",
     avaliacao: "/estrelinhas-avaliacao.png",
-    price: "",
     description:
       "Bebida refrescante com gelo triturado, leite ou bebida vegetal e natas. Pode escolher o seu sabor favorito.",
   },
